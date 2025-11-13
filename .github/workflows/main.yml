@@ -1,0 +1,10 @@
+name: My First Automation
+
+on: [push]  # Runs when you push code
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello
+        run: echo "Hello Mehmood! Automation is working 🎉"
